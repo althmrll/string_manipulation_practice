@@ -2,3 +2,4 @@
 name= input("Enter your full name in improper casing:")
 
 #print name in proper casing letters
+print(name.swapcase())
