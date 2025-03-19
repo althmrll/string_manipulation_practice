@@ -7,4 +7,4 @@ sentence= input("Enter a sentence:")
 words.append(sentence)
 
 #count number of words
-print("there are", words.count()), "words in the sentence you inputted.")
+print("there are", words.count(), "words in the sentence you inputted.")
