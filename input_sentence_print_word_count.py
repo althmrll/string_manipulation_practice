@@ -2,4 +2,5 @@
 sentence= input("Enter a sentence:")
 
 #count number of words
-print("there are", sentence.count(str(sentence.split())), "words in the sentence you inputted.")
+word_count=sentence.split()
+print("there are", word_count.count(word_count), "words in the sentence you inputted.")
